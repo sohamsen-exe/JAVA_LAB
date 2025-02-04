@@ -1,0 +1,19 @@
+public class Vehicles {
+    public static void car_company() {
+        System.out.println("Car Company is : Benz");
+    }
+}
+class Car extends Vehicles {
+    public static void car_price() {
+        System.out.println("Car Price is : 50 Lakhs");
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Car Details : ");
+        System.out.println("================");
+        Car obj = new Car();
+        obj.car_company();
+        obj.car_price();
+    }
+}
